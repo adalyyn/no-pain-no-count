@@ -1,2 +1,16 @@
-# no-pain-no-count
-AI Pose Estimation Exercise Counter
+# 🏋️ No Pain No Count
+> **AI 포즈 인식을 활용한 크로스핏 운동 횟수 자동 측정 앱**
+
+## 1. Project Background (기획 의도)
+- **Problem:** 운동중 개수 및 세트를 잊어버림.
+- **Solution:** 카메라로 내 움직임을 인식해서 자동으로 숫자를 세어주는 앱을 개발해 운동에만 집중하고자 함.
+
+## 2. Key Logic (핵심 로직)
+*이 부분은 코딩 전 나의 논리 설계입니다.*
+- **스쿼트:** 골반이 무릎보다 아래로 내려갔을 때(각도 측정)를 1회로 판정.
+- **풀업:** 어깨와 팔꿈치의 위치 관계를 분석하여 가동 범위 확인.
+
+## 3. Tech Stack (기술 스택)
+- **Frontend:** Flutter
+- **AI:** Google MediaPipe (Pose)
+- **Note:** 최신 프레임워크와 AI 기술을 경험해 보는 것이 목표
